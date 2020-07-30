@@ -10,10 +10,9 @@ int main(void)
         if (numbers[i] == 50)
         {
             printf("found\n");
-        }
-        else
-        {
-            printf("not found\n");
+            return 0;
         }
     }
+    printf("not found!\n");
+    return 1;
 }
